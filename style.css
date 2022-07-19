@@ -1,0 +1,81 @@
+html {
+    width: 100%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(loganew.jpg);
+    background-color: #cccccc;
+    background-size: 70%;
+    background-repeat: repeat-x;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    text-decoration: none;
+}
+
+.home-page {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.quote-container {
+}
+
+.quote-image {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffe400;
+    border-radius: 10%;
+    opacity: 0.5;
+    margin-top: 185px;
+}
+
+.quote-text {
+    color: #548054;
+    font-size: 39px;
+    margin-top: 18px;
+    padding: 62px;
+    text-align-last: center;
+}
+
+.quote-button {
+    border: none;
+    opacity: 0.5;
+    background-color: #ffe400;
+    color: #548054;
+    border-radius: 4px;
+    height: 24px;
+    width: 93px;
+    margin-top: 15px;
+}
